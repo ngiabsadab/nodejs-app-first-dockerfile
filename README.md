@@ -83,13 +83,17 @@ Assign a name to the container
 
 
 
-Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
-- name or repository is "goals" tag is "latest"
+Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE - name or repository is "goals" - tag is "latest"
+
+
     docker build -t goals:latest .
     docker build -t goals:22 .
 
+
     old docker run -p 3000:80 -d --rm --name fistapp afed756c4069
     new docker run -p 3000:80 -d --rm --name fistapp goals:latest
+
+    
     
 ![tag_refers_to_image.png](assets/images/tag_refers_to_image.png)
 
