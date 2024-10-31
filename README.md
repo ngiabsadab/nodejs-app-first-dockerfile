@@ -91,7 +91,7 @@ Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
     old docker run -p 3000:80 -d --rm --name fistapp afed756c4069
     new docker run -p 3000:80 -d --rm --name fistapp goals:latest
     
-![tag_refers_to_image.png.png](assets/images/tag_refers_to_image.png.png)
+![tag_refers_to_image.png](assets/images/tag_refers_to_image.png)
 
 
 If you want to remove all images, incl. tagged images, you need to run
