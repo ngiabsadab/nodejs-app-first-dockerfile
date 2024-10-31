@@ -63,3 +63,10 @@ View resource usage stats
 
     docker container stats
 
+Inspect
+`docker inspect afed756c4069`
+
+Copy 
+`docker cp dummy/. elated_black:/test`
+`docker cp elated_black:/test dummy`
+`docker cp elated_black:/test/test.txt dummy`
