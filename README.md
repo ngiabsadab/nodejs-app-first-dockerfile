@@ -79,7 +79,7 @@ Assign a name to the container
 
     docker run -p 3000:80 -d --rm --name fistapp afed756c4069
     
-![Screenshot 2024-10-31 at 22.23.05.png](assets/images)
+![assign_name_to_the_container.png](assets/images/assign_name_to_the_container.png)
 
 
 
