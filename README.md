@@ -26,6 +26,7 @@ Run a container in the background
     docker run -p 3000:80 -d afed756c4069
     // after run, it will generate ID of the new container
 
+
 Start or stop an existing container
 
     docker start|stop <container_name> (or <container-id>)
@@ -72,4 +73,13 @@ Copy
     docker cp dummy/. elated_black:/test
     docker cp elated_black:/test dummy
     docker cp elated_black:/test/test.txt dummy
+
+
+Assign a name to the container
+
+    docker run -p 3000:80 -d --rm --name fistapp afed756c4069
+    
+![assets/images/Screenshot 2024-10-31 at 22.23.05.png](https://)
+
+
 
